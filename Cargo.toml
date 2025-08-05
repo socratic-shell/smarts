@@ -1,0 +1,17 @@
+[package]
+name = "smarts"
+version = "0.1.0"
+edition = "2021"
+description = "A library for managing locally installed LLM models and embeddings"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/socratic-shell/smarts"
+
+[dependencies]
+tokio = { version = "1.0", features = ["full"] }
+# candle-rs dependencies will be added in next iteration
+# candle-core = "0.3"
+# candle-nn = "0.3" 
+# candle-transformers = "0.3"
+
+[dev-dependencies]
+tokio-test = "0.4"
